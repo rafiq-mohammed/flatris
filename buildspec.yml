@@ -17,5 +17,5 @@ phases:
       - echo Copying the deployment artifacts
 artifacts:
       files: 
-        - 'dist/*'
+        - '**/*'
       name: Flatris-BuildArtifact-$(date +%Y-%m-%d)
